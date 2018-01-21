@@ -6,7 +6,6 @@ function order(words){
     let wordsArr = words.split(' ');
     let result = '';
     
-    //return new Set(wordsArr[0]).has('2') ? true : false;
     for(let i = 1; i < 10; i++){
       for(let j = 0; j < wordsArr.length; j++){
         if(new Set(wordsArr[j]).has(i.toString())){
